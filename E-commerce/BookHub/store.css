@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+     background-color:#f0f0f0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-slider-thumb{
+    color: blue;
+    background-color: blanchedalmond;
+}
+nav{
+    width: 100vw;
+    position: fixed;
+  background-image:linear-gradient(to right,black,grey);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 0 9px rgba(0, 0, 0, 0.2);
+    height:2%;
+}
+.ilo
+{
+ background-image:linear-gradient(to right,black,grey);
+}
+
+h2{
+    background-color:#00afee;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
+.navs
+{
+}
+ul{
+    padding-right:5%;
+    text-decoration: none;
+    list-style: none;
+    top: 10px;
+     right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   background-image:linear-gradient(to right,black,grey);
+}
+.navs ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 19px;
+    padding:0 30px ;
+
+}
+.navs ul li a{
+    text-decoration: none;
+    color:#00afee;
+    transition: all 0.2s ease-in;  
+}
+.navs ul li a:hover{
+    background:grey;
+    padding: 3px 6px;
+    color: white;
+    border-radius: 5px;
+}
+.navs ul li .home{
+    color: rgb(0, 140, 255);
+}
+.z
+{
+padding-top:60%;
+  
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 25px;
+    
+}
+.text1 h2{
+    color: rgb(255, 0, 217) ;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: sevillana;
+}
+.text1 h2::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    bottom: -8px;
+
+}
+.para input{
+    width: 590px;
+    height: 35px;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-shadow:1px 1px 2px 1px #00afee;
+    color: gray;
+    border: 0.3px solid transparent;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+}
+.para input:focus{
+        color: rgb(163, 162, 162);
+        font-size: 12px;   
+}
+label{
+    margin-left: 5px;
+    color:greys;
+    cursor: pointer;
+    position: absolute;
+    right: 475px;
+        top: 10px;
+}
+
+.wrapper{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-left: 20px;
+}
+.box{
+    margin-left: 15px;
+    padding:8px 12px;
+   border: 0.3 solid transparent;
+   box-shadow: -1px -1px 5px #00afee,3px 5px 5px #00afee;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+}
+.image img{
+    width: 140px;
+    height: 160px;
+   transition: transform 0.4s ease-in-out;
+}
+.image img:hover{
+    transform: scale(1.03);
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.name h3{
+font-size: 13px;
+margin-top: 3px;
+color:grey;
+}
+.name h4{
+font-size: 10px;
+margin-top: 3px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+color: rgb(216, 40, 40);
+}
+.icons{
+    margin-top: 3px;
+    color:grey;
+    
+}
+ .all i:nth-child(1) {
+    color: rgb(64, 64, 64);
+ }
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+.price h5{
+color: rgb(96, 94, 94);
+}
+.price i{
+    cursor: pointer;
+    margin: 0 3px;
+    color:#bb1e21;
+}
+
+.cart i{
+    color:#00afee;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.cart i:hover{
+    transform:scale(1.5)
+}
+.cart i span{
+font-size: 14px;
+color: rgb(255, 0, 0);
+font-weight: bold;
+}
+.j
+{
+padding-left:35%;
+}
+.k
+{
+padding-right:25%;
+}
+.l
+{
+   color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.a
+{
+  background-image:linear-gradient(to right,black,grey);
+}
+.i:hover
+{
+  transform:scale(1.2)
+}
+.fa-search {
+  color:#00afee ; 
+  font-size: 18px;
+  margin-right: 5px; 
+}
