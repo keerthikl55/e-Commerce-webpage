@@ -18,4 +18,6 @@ Fit Pro is a front-end web application that provides valuable health information
 2. Install dependencies (if any).
 3. Run the application locally.
 
+**The Project is going under further development**
+
 Feel free to customize this template with specific details about your project! 🎉✨
