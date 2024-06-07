@@ -34,6 +34,6 @@ Welcome to our open-source e-commerce web application! 🛒🌟
 2. Install dependencies (if any).
 3. Run the application locally.
 
-** Projects are under further developments**
+**The Project is going under further development**
 
 Feel free to customize this template with specific details about your project! 🎉✨
